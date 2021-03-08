@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>Quiz</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+    <body>
+      <div class="vertical-scroll-viewer"></div>
+    
+    <h1>Quiz</h1>
+    <h1 id="question"></h1>
+        <div id="options"></div>
+        
+        <div style="margin-bottom:100px">
+        
+        
+            <table style="width:100%">
+                <tr>
+                  <th>Total Question</th>
+                  <th>Correct Question</th>
+                  
+                </tr>
+                <tr>
+                  <td id="tq"></td>
+                  <td id="cq"></td>
+                  
+                </tr>
+              </table>
+        
+        </div>
+        <button id="btn" onclick="clk()">
+          Re-Take
+
+        </button>
+
+        <h1>Searching and Sorting Algorithms</h1>
+        
+
+        
+        
+         
+    <table style="width:100%">
+    
+    <tr>
+    <td style="background-color:orange ;">Select sorting or searching algorithm</td>
+    <td style="background-color:white ;"> Enter Random Elements</td>
+    <td style="background-color:green ;">Sorted Elements are</td>
+
+    </tr>
+    <tr>
+      <td><div class="dropdown">
+        <span>Mouse or click over me</span>
+        <div class="dropdown-content" style="white-space: initial;overflow-y: scroll;">
+         
+      <div class="dropdown1">
+        <p>Searching</p>
+
+        <div class="dropdown-content1" style="white-space: initial;overflow-y: scroll;">
+        
+        <p>Linear Search</p>
+        <div class="dropdown2">
+          <p>Binary Search</p>
+          <div class="dropdown-content2">
+            <p>Binary search algorithm</p>
+            <p>Binary Search by Recursive Algorithm</p>
+            <p>Binary Search using Link List</p>
+            <p>Binary Search Algorithm by Divide and Conqer Method</p>
+       
+      </div>
+    </div>
+        
+        </div>
+      </div>
+      <div class="dropdown1">
+        <p>Sorting</p>
+
+        <div class="dropdown-content1" style="white-space: initial;overflow-y: scroll;">
+        
+        <p id="bubblesort" onclick="bs()">  Bubble Sort</p>
+        <p id="selectionsort" onclick="sc()"> Selection Sort</p>
+        <p>Insertion Sort</p>
+        <p>Heap Sort</p>
+        <p>Shell Sort</p>
+        <p>Merge Sort</p>
+        <p>Quick Sort</p>
+        <p>Radix Sort</p>
+        </div>
+
+        </div>
+     
+        </div>
+      </div>
+    
+    
+    </td>
+    <td>
+      
+      <input  id="enter"  style="position: initial;"/>
+   
+    </td>
+    <td>
+
+
+      <label id="answer">
+        
+      </label>
+    </td>
+      </tr>
+
+
+      
+  
+      
+      
+    
+    </table>
+
+
+
+    
+
+    <button id="go" onclick="go1()" style="padding: 30px;">
+      Go
+
+    </button>
+          
+
+       
+        
+          
+          
+       
+        
+    </body>
+  
+ 
+        
+
+
+</html>
+
